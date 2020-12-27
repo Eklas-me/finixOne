@@ -1,0 +1,143 @@
+/* Responsiv Css */
+@media(max-width:992px){
+    /* why people choos us css */
+    .fetures-items h3 {
+        font-size: 15px;
+    }
+    .fetures-items::before {
+        width: 78%;
+        height: 65%;
+    }
+    .fetures-items .ft-icon i {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    .fetures-items p {
+        font-size: 12px;
+    }
+        /* apply section */
+        .apply-left-text h2{
+            font-size: 20px;
+        }
+        .apply-left-text ul li h3 {
+            font-size: 21px;
+            font-weight: 500;
+        }
+        .apply-left-text p{
+            font-size: 13px;
+            margin-bottom: 29px
+        }
+        .finix-text h1 {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 11px;
+        }
+        /* Company css */
+        .company-head-text h2 {
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .company-head-number a {
+            font-size: 18px;
+        }
+        .company-head-number span {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+        .company-bg {
+            padding: 18px;
+        }
+        .company-head-number {
+            margin-top: 0px;
+        }
+        /* service csss */
+        .my-personal-service li a span i {
+            font-size: 21px;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+        }
+        .my-personal-service li a strong {
+            font-size: 12px;
+        }
+            
+        
+
+
+}
+@media(max-width:768px){
+    /* Headar and bannar css */
+    .slider-content h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .slider-content p {
+        font-size: 15px;
+    }
+    .slider-content h6 {
+        font-size: 17px;
+    }
+    .slider-content-wrap {
+        height: 50vh;
+    }
+    body .btn-primary {
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+    .slider-social ul li span {
+        font-size: 14px;
+        font-weight: 500;
+        
+    }
+    .slider-social ul li a {
+        padding: 0px 8px;
+        font-size: 12px;
+        
+    }
+    .slider-social ul li::after {
+        right: 116px;
+    }
+    .slider {
+        background-size: cover;
+        width: 100%;
+    }
+    /* why people choos us css */
+    .fetures-items h3 {
+        font-size: 15px;
+    }
+    /* service css */
+    .my-personal-service  ul li{
+        width: 50%;
+    }
+
+
+}
+@media(max-width:576px){
+    .slider-content {
+        width: 100%;
+        text-align: center;
+    }
+    .slider-content h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .btn-primary {
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    /* About css */
+    .about-image {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .finix-text h1 {
+        font-size: 34px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+
+}
